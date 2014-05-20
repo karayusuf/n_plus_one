@@ -1,0 +1,16 @@
+// Place all the styles related to the accounts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+table {
+  min-width: 300px;
+
+  th {
+    text-align: left;
+  }
+
+  td, th {
+    padding: 5px;
+    margin: 0px;
+    border-bottom: 1px solid #d2d2d2;
+  }
+}

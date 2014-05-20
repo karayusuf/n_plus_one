@@ -1,0 +1,20 @@
+<h1>Listing accounts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th># of Agents</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @accounts.each do |account| %>
+      <tr>
+        <td><%= account.name %></td>
+        <td><%= account.agent_count %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
